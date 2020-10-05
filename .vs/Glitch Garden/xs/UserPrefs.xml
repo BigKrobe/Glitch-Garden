@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{57519B5A-0702-8D5E-8344-BE203C54CCC3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attacker.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LevelLoader.cs" Line="28" Column="55" />
+      <File FileName="Assets/Scripts/Attacker.cs" Line="7" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="58f92f32-b89c-41a7-a9a8-ad03eafab0a4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
