@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 3631406528597060250}
   - component: {fileID: 3631406528597060251}
   - component: {fileID: 3631406528597060248}
+  - component: {fileID: 6155443102829210504}
+  - component: {fileID: 5447078890872444243}
   - component: {fileID: 3631406528597060261}
+  - component: {fileID: -4037301464791610791}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -103,6 +106,53 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &6155443102829210504
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3631406528597060249}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &5447078890872444243
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3631406528597060249}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.6042744, y: -0.2705058}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.51, y: 1.86}
+    newSize: {x: 0.83, y: 0.88}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6033728, y: 0.89141583}
+  m_EdgeRadius: 0
 --- !u!114 &3631406528597060261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,4 +165,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074ba136457b0494a9e1c355ae8df470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 0.8
+  enemyHealth: 100
+--- !u!114 &-4037301464791610791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3631406528597060249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e257f8e62044a1eba2a098e5cfc729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathFX: {fileID: 1448655182044436884, guid: 3c598443d1e7448399df0111b32338fc, type: 3}
+  durationOfExplosion: 2.5
