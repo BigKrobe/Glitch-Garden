@@ -28,7 +28,7 @@ public class Attacker : MonoBehaviour
 // create DealDamage()
 // create on trigger2d event
 // check collision is attacker
-//call DealDamage()
+// call DealDamage()
 // decrease health by damage amount
 // if health < 0 then destroy
 // play death VFX
